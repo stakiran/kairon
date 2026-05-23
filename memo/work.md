@@ -21,5 +21,14 @@ process explorer で確認しながら見ていた
 # sample-sleepprint.md を試す
 スクリプト実行できるようにしたい。
 
-frontmatter に tools と console を追加してる。が、console: true にしても print が出てこない。デバッグできねえだろ。トラシューしてるけど的を得ない。
+frontmatter に tools と console を追加してる。動いてはいる。
+
+が、console: true にしても print が出てこない。デバッグできねえだろ。トラシューしてるけど的を得ない。
+
+# やっぱりアーキ変えよう
+claude -p のネストはダメだ。
+
+claude -p は kairon だけにして、kairon が起動対象特定 → 起動対象を全部自分で起動、にする。処理はなるべく決定的にすればいい。必要なら使い捨てスクリもつくれ。非同期も使え。その辺の判断は丸々任せればいい。権限だけ絞って暴れないようにだけはしておく。
+
+v1 は切っておく。memo/ に置いといた。
 
