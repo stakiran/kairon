@@ -18,3 +18,8 @@ sample-hello でも claude.exe が終了するまでに 20 秒近く、メモリ
 
 process explorer で確認しながら見ていた
 
+# sample-sleepprint.md を試す
+スクリプト実行できるようにしたい。
+
+frontmatter に tools と console を追加してる。が、console: true にしても print が出てこない。デバッグできねえだろ。トラシューしてるけど的を得ない。
+
