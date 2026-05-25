@@ -32,3 +32,9 @@ claude -p は kairon だけにして、kairon が起動対象特定 → 起動�
 
 v1 は切っておく。memo/ に置いといた。
 
+# ====
+
+# kairon v2
+kairon は概念、参考実装として kairon-sta を提示するモデルにした。
+
+次: これでつくれそうか尋ねるところから
